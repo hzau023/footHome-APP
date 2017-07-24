@@ -1,0 +1,9 @@
+*{
+	font-size: 0.16rem;
+}
+html,body{
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}

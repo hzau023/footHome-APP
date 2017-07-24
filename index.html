@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, 
+		maximum-scale=1.0, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/context-hot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<script src="js/fixation/autowin.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fixation/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fixation/template-native.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fixation/iscroll-probe.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/fixation/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/custom/context-hot.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+	<body>
+		<script type="text/html" id="context_tmp">
+			<% for (var i = 0, len = context.length; i < len; i++) { 
+				var prod = context[i];
+			%>
+				<li class="lixx"><img src=<%= prod.img %> ><p><%= prod.msg %></p></li>	
+			<% } %>
+		</script>
+		
+		<div class="header">
+			<div class="hot">热点</div>
+			<div class="fous">关注</div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-container main" > 
+			<div class="swiper-wrapper"  >
+				<div class="swiper-slide wrapper">
+					<ul>
+						<div class="upTag">上拉加载</div>
+					</ul>
+				</div>
+				<div class="swiper-slide" >
+					<ul>
+						<div class="upTag">上拉加载</div>
+					</ul>
+				</div>
+				<div class="swiper-slide">
+					<ul>
+						<div class="upTag">上拉加载</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<li class="index"><i class="iconfont icon-shouye"></i><p>首页</p></li>
+			<li class="search"><i class="iconfont icon-search"></i><p>发现</p></li>
+			<li class="cir"><i class="iconfont icon-zhaoxiangji"></i><p></p></li>
+			<li class="me"><i class="iconfont icon-wode"></i><p>我的</p></li>
+			<li class="esc"><i class="iconfont icon-tuichu-copy"></i><p>退出</p></li>
+		</div>
+	</body>
+</html>

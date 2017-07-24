@@ -1,0 +1,114 @@
+{
+	"index.html": {
+		"resources": [
+			"font/iconfont.css",
+			"css/context-hot.css",
+			"font/iconfont.woff",
+			"js/fixation/template-native.js",
+			"js/fixation/swiper.jquery.min.js",
+			"js/fixation/jquery-1.12.4.min.js",
+			"js/fixation/iscroll-probe.js",
+			"js/fixation/autowin.js",
+			"css/reset.css",
+			"js/custom/context-hot.js",
+			"css/swiper-3.4.2.min.css",
+			"html/context-fous.html",
+			"html/search.html",
+			"html/me.html",
+			"html/login.html",
+			"font/iconfont.ttf"
+		],
+		"refer": [
+			"html/context-fous.html",
+			"html/search.html",
+			"html/me.html",
+			"html/login.html"
+		]
+	},
+	"html/context-fous.html": {
+		"resources": [
+			"imgs/girl/002.jpg",
+			"js/custom/context-fous.js",
+			"css/context-fous.css",
+			"index.html",
+			"font/iconfont.css",
+			"font/iconfont.woff",
+			"js/fixation/swiper.jquery.min.js",
+			"js/fixation/jquery-1.12.4.min.js",
+			"js/fixation/iscroll-probe.js",
+			"js/fixation/autowin.js",
+			"css/reset.css",
+			"css/swiper-3.4.2.min.css",
+			"html/search.html",
+			"html/me.html"
+		],
+		"refer": [
+			"index.html",
+			"html/search.html",
+			"html/me.html"
+		]
+	},
+	"html/search.html": {
+		"resources": [
+			"imgs/girl/002.jpg",
+			"css/search.css",
+			"js/custom/search.js",
+			"font/iconfont.css",
+			"font/iconfont.woff",
+			"js/fixation/swiper.jquery.min.js",
+			"js/fixation/jquery-1.12.4.min.js",
+			"js/fixation/iscroll-probe.js",
+			"js/fixation/autowin.js",
+			"css/reset.css",
+			"css/swiper-3.4.2.min.css",
+			"html/me.html",
+			"index.html"
+		],
+		"refer": [
+			"html/me.html",
+			"index.html"
+		]
+	},
+	"html/me.html": {
+		"resources": [
+			"css/me.css",
+			"imgs/girl/002.jpg",
+			"js/custom/me.js",
+			"font/iconfont.css",
+			"font/iconfont.woff",
+			"js/fixation/swiper.jquery.min.js",
+			"js/fixation/jquery-1.12.4.min.js",
+			"js/fixation/iscroll-probe.js",
+			"js/fixation/autowin.js",
+			"css/reset.css",
+			"css/swiper-3.4.2.min.css",
+			"index.html",
+			"html/search.html"
+		],
+		"refer": [
+			"index.html",
+			"html/search.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"js/custom/login.js",
+			"css/login.css",
+			"js/fixation/jquery-1.12.4.min.js",
+			"js/fixation/autowin.js",
+			"css/reset.css",
+			"index.html",
+			"html/register.html"
+		],
+		"refer": [
+			"index.html",
+			"html/register.html"
+		]
+	},
+	"html/register.html": {
+		"resources": [
+			"css/register.css",
+			"js/custom/register.js"
+		]
+	}
+}

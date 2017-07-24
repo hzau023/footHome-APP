@@ -1,0 +1,33 @@
+*{
+	font-size: 16px;
+}
+.head{
+	height: 0.88rem;
+	width: 6.4rem;
+	background: #0dc441;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.34rem;
+	color: white;
+}
+.from{
+	width:5.8rem ;
+	margin-top: 0.32rem;
+	margin-left: 0.3rem;
+}
+.from input,button{
+	width: 5.8rem;
+	height: 0.86rem;
+	border:none ;
+	border-bottom:1px solid #7f7f7f ;
+	margin-bottom: 0.54rem;
+	color: #999999;
+	font-size: 0.26rem;
+}
+.from button{
+	border: none;
+	color: white;
+	font-size: 0.34rem;
+	background: #0dc441;
+	border-radius:4px ;
+}
